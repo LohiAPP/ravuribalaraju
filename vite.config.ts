@@ -1,15 +1,11 @@
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 export default defineConfig({
-  tanstackStart: {
-    server: {
-      entry: "server",
-      preset: "vercel"
-    }
-  },
+  tanstackStart: {},
   vite: {
     build: {
-      outDir: "dist"
+      outDir: "dist",
+      emptyOutDir: true
     }
   }
 });
