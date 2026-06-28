@@ -353,7 +353,7 @@ function Index() {
           <div className="flex items-end justify-between mb-8 flex-wrap gap-3">
             <div>
               <SectionLabel>Impact at a glance</SectionLabel>
-              <h2 className="text-3xl md:text-4xl font-bold text-sky">Eight years. Two states. A global stage.</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-gradient">Eight years. Two states. A global stage.</h2>
             </div>
             <div className="text-base text-foreground/60 max-w-sm leading-relaxed">A snapshot of the institutional and humanitarian footprint built since founding WHRC in 2017.</div>
           </div>
@@ -373,7 +373,7 @@ function Index() {
         <div className="grid lg:grid-cols-12 gap-8">
           <div className="lg:col-span-5">
             <SectionLabel>Personal information</SectionLabel>
-            <h2 className="font-display text-4xl lg:text-5xl font-bold text-gold">Biodata</h2>
+            <h2 className="font-display text-4xl lg:text-5xl font-bold text-gradient">Biodata</h2>
             <p className="mt-4 text-foreground/70 leading-relaxed">A verified record of identity, education, and current professional standing.</p>
             <div className="mt-8 glass rounded-3xl p-6 flex items-center gap-4">
               <Quote className="size-8 text-gold shrink-0" />
@@ -396,7 +396,7 @@ function Index() {
       {/* BIOGRAPHY */}
       <section className="relative z-10 max-w-7xl mx-auto px-6 lg:px-10 pb-24">
         <SectionLabel>Biography</SectionLabel>
-        <h2 className="font-display text-4xl lg:text-5xl font-bold text-gold max-w-3xl">Early life & education</h2>
+        <h2 className="font-display text-4xl lg:text-5xl font-bold text-gradient max-w-3xl">Early life & education</h2>
         <div className="mt-10 grid lg:grid-cols-2 gap-6">
           <article className="glass rounded-xl p-10">
             <div className="flex items-center gap-2.5 text-base font-bold text-gold mb-4"><BookOpen className="size-5" /> Early life & education</div>
@@ -412,7 +412,7 @@ function Index() {
       {/* LEADERSHIP ROLES - INTERACTIVE DEEP DIVE */}
       <section id="timeline" className="relative z-10 max-w-7xl mx-auto px-6 lg:px-10 pb-24">
         <SectionLabel>Leadership ecosystem</SectionLabel>
-        <h2 className="font-display text-4xl lg:text-5xl font-bold text-gold">Strategic roles & impact</h2>
+        <h2 className="font-display text-4xl lg:text-5xl font-bold text-gradient">Strategic roles & impact</h2>
         
         <div className="mt-12 glass-strong rounded-[40px] p-2 lg:p-4 overflow-hidden">
           <div className="grid lg:grid-cols-12 min-h-[600px]">
@@ -492,7 +492,7 @@ function Index() {
         <div className="glass-strong rounded-[40px] p-8 lg:p-12 grid lg:grid-cols-12 gap-10">
           <div className="lg:col-span-5">
             <SectionLabel>Organisation</SectionLabel>
-            <h2 className="font-display text-3xl lg:text-4xl font-bold text-gold">About World Human Rights Council</h2>
+            <h2 className="font-display text-3xl lg:text-4xl font-bold text-gradient">About World Human Rights Council</h2>
             <div className="mt-4 text-sm text-gold/60">Founded May 2017 · Hyderabad, Telangana</div>
             <a href="https://whrcheadquarters.org" className="mt-2 inline-flex items-center gap-1.5 text-sm font-medium text-sky hover:underline">
               <LinkIcon className="size-3.5" /> whrcheadquarters.org
@@ -515,7 +515,7 @@ function Index() {
       {/* INITIATIVES */}
       <section id="initiatives" className="relative z-10 max-w-7xl mx-auto px-6 lg:px-10 pb-24">
         <SectionLabel>Programs</SectionLabel>
-        <h2 className="font-display text-4xl lg:text-5xl font-bold text-[#0D2440]">Key initiatives & programs</h2>
+        <h2 className="font-display text-4xl lg:text-5xl font-bold text-gradient">Key initiatives & programs</h2>
         <div className="mt-12 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {initiatives.map(({ icon: Icon, title, body }) => (
               <article key={title} className="glass rounded-[28px] p-6 hover:shadow-[0_20px_40px_-10px_rgba(212,175,55,0.15)] hover:-translate-y-1 transition border-white/5">
@@ -530,7 +530,7 @@ function Index() {
       {/* AWARDS */}
       <section id="awards" className="relative z-10 max-w-7xl mx-auto px-6 lg:px-10 pb-24">
         <SectionLabel>Recognition</SectionLabel>
-        <h2 className="font-display text-4xl lg:text-5xl font-bold text-[#0D2440]">Awards & recognition</h2>
+        <h2 className="font-display text-4xl lg:text-5xl font-bold text-gradient">Awards & recognition</h2>
         <div className="mt-12 grid md:grid-cols-3 lg:grid-cols-4 gap-5">
           {awards.map(a => (
             <article key={a.title} className="glass rounded-lg overflow-hidden flex flex-col hover:shadow-(--shadow-glow) hover:-translate-y-1 transition group">
@@ -555,7 +555,7 @@ function Index() {
       {/* RECENT ACTIVITIES */}
       <section className="relative z-10 max-w-7xl mx-auto px-6 lg:px-10 pb-24">
         <SectionLabel>Recent activities</SectionLabel>
-        <h2 className="font-display text-4xl lg:text-5xl font-bold text-sky">On the global stage</h2>
+        <h2 className="font-display text-4xl lg:text-5xl font-bold text-gradient">On the global stage</h2>
         <div className="mt-12 grid lg:grid-cols-2 gap-6">
           {recent.map((r, i) => (
             <article key={r.title} className="glass rounded-[28px] p-6 hover:-translate-y-1 transition">
@@ -573,7 +573,7 @@ function Index() {
       <section id="vision" className="relative z-10 max-w-7xl mx-auto px-6 lg:px-10 pb-24">
         <div className="glass-strong rounded-[40px] p-8 lg:p-12">
           <SectionLabel>Philosophy & inspirations</SectionLabel>
-          <h2 className="font-display text-4xl lg:text-5xl font-bold text-sky max-w-3xl">"Educate. Agitate. Organise."</h2>
+          <h2 className="font-display text-4xl lg:text-5xl font-bold text-gradient max-w-3xl">"Educate. Agitate. Organise."</h2>
           <p className="mt-4 max-w-3xl text-foreground/80 leading-relaxed">Dr. Balaraju's worldview is deeply rooted in the Ambedkarite tradition.</p>
 
           <div className="mt-10 grid md:grid-cols-3 gap-6">
@@ -601,7 +601,7 @@ function Index() {
           <div className="grid lg:grid-cols-12 gap-10 items-center">
             <div className="lg:col-span-7">
               <SectionLabel>Connect</SectionLabel>
-              <h2 className="font-display text-3xl lg:text-4xl font-bold text-sky">Engage with a global leadership identity.</h2>
+              <h2 className="font-display text-3xl lg:text-4xl font-bold text-gradient">Engage with a global leadership identity.</h2>
               <p className="mt-3 text-foreground/70 max-w-xl">For partnerships, speaking engagements, and institutional collaboration.</p>
             </div>
             <div className="lg:col-span-5 grid gap-3">
